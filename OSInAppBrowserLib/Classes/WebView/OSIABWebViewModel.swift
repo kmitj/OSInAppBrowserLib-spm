@@ -1,5 +1,5 @@
 import Combine
-import WebKit
+@preconcurrency import WebKit
 
 /// View Model containing all the WebView's customisations.
 class OSIABWebViewModel: NSObject, ObservableObject {
